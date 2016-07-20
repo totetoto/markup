@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/foundation.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/social.css">
+  </head>
+  <body>
+    <div id="wrap">
+        
+      <!-- header -->
+      <header>
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="menu">
+              <li class="menu-text">Throw</li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+              <li><a href="#">Four</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      
+      <!-- contents -->
+      <div id="contents">
+        <div class="callout large">
+          <div class="row column text-center">
+            <h1>LOGIN</h1>
+          </div>
+        </div>
+
+        <div class="row medium-8 large-7 columns panel" id="content">
+          <div class="medium-7 columns">
+            <form>
+              <div class="row column log-in-form">
+                <h4 class="text-center"></h4>
+                <label>Email
+                  <input type="text" placeholder="somebody@example.com" class="login">
+                </label>
+                <label>Password
+                  <input type="text" placeholder="Password" class="login">
+                </label>
+                <input id="show-password" type="checkbox"><label for="show-password">Show password</label>
+                <p><a type="submit" class="button expanded">Log In</a></p>
+                <p class="text-center"><a href="#">Forgot your password?</a></p>   
+              </div>
+            </form>
+          </div>
+          <div class="medium-4 columns" data-sticky-container>
+            <br />
+            <br />
+            <button href="#" class="facebook left-icon button split"> <span></span> facebook</button>
+            <button href="#" class="twitter left-icon button split"> <span></span> twitter</button>
+            <button href="#" class="google left-icon button split"> <span></span> google +</button>
+            <hr />
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <div class="top-bar" id="footer">
+          <div class="text text-center gray text-size-10">Copyright (c) xxxx, all right  reversed.</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="./js/vendor/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

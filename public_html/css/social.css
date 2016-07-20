@@ -1,0 +1,107 @@
+
+/** social button */
+.split.button {
+    width: 100%;
+    position: relative;
+    /*padding-right: 3.0625rem;*/
+}
+button, .button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem 1.0625rem 2rem;
+    font-size: 1rem;
+    background-color: #008CBA;
+    border-color: #007095;
+    color: #FFFFFF;
+    transition: background-color 300ms ease-out;
+}
+.split.button span {
+    width: 3.09375rem;
+}
+.split.button span {
+    border-left-color: rgba(255, 255, 255, 0.5);
+}
+.split.button span {
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: solid 1px;
+}
+.split.button span:after {
+    position: absolute; 
+    content: ""; 
+    width: 0;
+    height: 0;
+    display: block;
+    border-style: inset;
+    top: 50%;
+    left: 50%;
+}
+/** facebook */
+.split.button.facebook {
+    background: #3b5998;
+    /*text-transform: uppercase;*/
+}
+.split.button.facebook span {
+    background: #2d4373;
+}
+.split.button.facebook span:after {
+    border: none;
+    font-family: "foundation-icons";
+    content: "\f1c4";
+    font-size: 2rem;
+    line-height: 0.25rem;
+    margin-left: -0.7rem;
+}
+/** twitter */
+.split.button.twitter {
+    background: #55acee;
+    /*text-transform: uppercase;*/
+}
+.split.button.twitter span {
+    background: #2795e9;
+}
+.split.button.twitter span:after {
+    border: none;
+    font-family: "foundation-icons";
+    content: "\f1e4";
+    font-size: 2rem;
+    line-height: 0.25rem;
+    margin-left: -0.7rem;
+}
+/** google+ */
+.split.button.google {
+    background: #d50f25;
+    /*text-transform: uppercase;*/
+}
+.split.button.google span {
+    background: #a50c1d;
+}
+.split.button.google span:after {
+    border: none;
+    font-family: "foundation-icons";
+    content: "\f1ca";
+    font-size: 2rem;
+    line-height: 0.25rem;
+    margin-left: -0.7rem;
+}
+.split.button.left-icon {
+    text-align: center;
+}
+.split.button.left-icon span {
+    left: 0;
+}
