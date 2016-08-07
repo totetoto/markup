@@ -46,3 +46,14 @@
 .introduction {
     margin-bottom: 60px;
 }
+
+.site_list {
+    list-style-image: url(../img/icon_159410_16.png);
+    list-style-position: outside;
+}
+
+.centering_box {
+    margin: 0 auto;
+    text-align: left;
+    width: 300px;
+}
