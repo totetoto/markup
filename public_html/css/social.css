@@ -1,11 +1,11 @@
 
 /** social button */
-.split.button {
+.split.social-button {
     width: 100%;
     position: relative;
     /*padding-right: 3.0625rem;*/
 }
-button, .button {
+button, .social-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     border-radius: 0;
@@ -27,13 +27,13 @@ button, .button {
     color: #FFFFFF;
     transition: background-color 300ms ease-out;
 }
-.split.button span {
+.split.social-button span {
     width: 3.09375rem;
 }
-.split.button span {
+.split.social-button span {
     border-left-color: rgba(255, 255, 255, 0.5);
 }
-.split.button span {
+.split.social-button span {
     display: block;
     height: 100%;
     position: absolute;
@@ -41,7 +41,7 @@ button, .button {
     top: 0;
     border-left: solid 1px;
 }
-.split.button span:after {
+.split.social-button span:after {
     position: absolute; 
     content: ""; 
     width: 0;
@@ -52,14 +52,14 @@ button, .button {
     left: 50%;
 }
 /** facebook */
-.split.button.facebook {
+.split.social-button.facebook {
     background: #3b5998;
     /*text-transform: uppercase;*/
 }
-.split.button.facebook span {
+.split.social-button.facebook span {
     background: #2d4373;
 }
-.split.button.facebook span:after {
+.split.social-button.facebook span:after {
     border: none;
     font-family: "foundation-icons";
     content: "\f1c4";
@@ -68,14 +68,14 @@ button, .button {
     margin-left: -0.7rem;
 }
 /** twitter */
-.split.button.twitter {
+.split.social-button.twitter {
     background: #55acee;
     /*text-transform: uppercase;*/
 }
-.split.button.twitter span {
+.split.social-button.twitter span {
     background: #2795e9;
 }
-.split.button.twitter span:after {
+.split.social-button.twitter span:after {
     border: none;
     font-family: "foundation-icons";
     content: "\f1e4";
@@ -84,14 +84,14 @@ button, .button {
     margin-left: -0.7rem;
 }
 /** google+ */
-.split.button.google {
+.split.social-button.google {
     background: #d50f25;
     /*text-transform: uppercase;*/
 }
-.split.button.google span {
+.split.social-button.google span {
     background: #a50c1d;
 }
-.split.button.google span:after {
+.split.social-button.google span:after {
     border: none;
     font-family: "foundation-icons";
     content: "\f1ca";
@@ -99,9 +99,9 @@ button, .button {
     line-height: 0.25rem;
     margin-left: -0.7rem;
 }
-.split.button.left-icon {
+.split.social-button.left-icon {
     text-align: center;
 }
-.split.button.left-icon span {
+.split.social-button.left-icon span {
     left: 0;
 }

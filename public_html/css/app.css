@@ -57,3 +57,8 @@
     text-align: left;
     width: 300px;
 }
+
+/** button */
+.button.low {
+    padding: 6px;
+}
